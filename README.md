@@ -5,7 +5,8 @@ On-Device Eye Tracking System Using MobileNetV3 and TensorFlow
 
 ## Dataset
 The EyeSay model leverages the extensive MIT GazeCapture dataset, accessible upon registration at the dataset's website. Our selection criteria ensured the inclusion of frames with valid face and eye detections, leading to a refined dataset from 1,241 participants, totaling 501,735 frames. Detailed explanations of the dataset's structure and contents are provided in the official GazeCapture repository.
-[project website])https://gazecapture.csail.mit.edu/download.php)
+
+[project website](https://gazecapture.csail.mit.edu/download.php)
 
 ### Splits
 Two primary splits were used for training the base model:
