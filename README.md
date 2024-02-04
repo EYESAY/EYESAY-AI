@@ -8,12 +8,6 @@ The EyeSay model leverages the extensive MIT GazeCapture dataset, accessible upo
 
 [project website](https://gazecapture.csail.mit.edu/download.php)
 
-### Splits
-Two primary splits were used for training the base model:
-
-- **MIT Split**: Ensures that data from a single participant is exclusive to one of the train, test, or validation sets.
-- **Google Split**: Utilizes unique ground truth points for dataset division, including each participant's frames across all sets.
-
 ## The Network
 The EyeSay model reproduces the neural network architecture proposed by Google, utilizing TensorFlow. We have adapted the architecture to be compatible with MobileNetV3, optimizing it for on-device performance without compromising accuracy.
 
